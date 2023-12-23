@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Windows";
+  src: url("/assets/fonts/Windows.ttf");
+}
+
+@font-face {
+  font-family: "WindowsBold";
+  src: url("/assets/fonts/WindowsBold.ttf");
+}
+
+body {
+  font-family: "Windows";
+  background-image: url("/assets/img/404-background.jpg");
+}
+
+b {
+  font-family: WindowsBold;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: silver;
+  border: 2px ridge gainsboro;
+}
+
+.window {
+  overflow: auto;
+  resize: both;
+}
